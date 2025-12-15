@@ -60,7 +60,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 
 ![01](Images/01.png)
 
-> Click `Add and select App registration.`
+> Click on `Add` and select `App registration.`
 
 ![02](Images/02.png)
 
@@ -76,11 +76,11 @@ It improves protection by extracting IOCs from the different stage of the attack
 >  - Click `Manage > API permissions` tab.
 >  - Click `Add a permission` button.
 >  - Select `APIs my organization uses`.
->  - Search `WindowsDefenderATP` and click the search result.
+>  - Search for `WindowsDefenderATP` and click on search result.
 
 ![05](Images/05.png)
 
-> On the next page, select `Application permissions` and check the permissions listed in the table below. Then `click Add permissions`.
+> On the next page, select `Application permissions` and check the permissions listed in the table below. Then click on `Add permissions`.
 ### WindowsDefenderATP
 |       Category       |   Permission Name   | Description                                                            |
 |:---------------------|:--------------------|:-----------------------------------------------------------------------|
@@ -197,7 +197,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 
 ![16](Images/16.png)
 
-> - Go to `Security + networking` -> `Access keys`.
+> - Go to `Security + networking` > `Access keys`.
 > - Copy the `Key` and save it temporarily for the next steps.
 
 ![17](Images/17.png)
@@ -224,7 +224,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 
 ### Submit-Defender-Alerts-To-VMRay Logic App Installation
 
->This playbook is mandatory. The Logic App collects the Defender Alerts and sends to VMRay Function App Connector for further processing.
+>This playbook is **required**. The Logic App collects Defender alerts and sends them to the VMRay Function App connector for further processing.
 
 #### Consumption Plan
 > Click on below button to deploy:
