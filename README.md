@@ -73,7 +73,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 ![04](Images/04.png)
 
 > After creating the application, we need to set API permissions for connector. For this purpose,
->  - Click `Manage -> API permissions` tab.
+>  - Click `Manage > API permissions` tab.
 >  - Click `Add a permission` button.
 >  - Select `APIs my organization uses`.
 >  - Search `WindowsDefenderATP` and click the search result.
@@ -105,7 +105,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 ![07](Images/07.png)
 
 > We need secrets for programmatic access. Here's how to create them.
-> - Click `Manage -> Certificates & secrets` tab.
+> - Click `Manage > Certificates & secrets` tab.
 > - Click `Client secrets` tab.
 > - Click `New client secret` button.
 > - Enter description and set expiration date for secret.
@@ -237,7 +237,7 @@ It improves protection by extracting IOCs from the different stage of the attack
 ![22](Images/22.png)
 
 > Once the deployment is complete, go to newly deployed logic app, click on `edit`. The logic app will open in a designer mode.
-- ![23](Images/23.png)
+ ![23](Images/23.png)
 
 > On the next page, choose `Authentication` as `Service principal`, and provide the `ClientId`, `Client Secret` and `Tenant` values created via Entra ID app registration previously.
 
@@ -291,15 +291,17 @@ It improves protection by extracting IOCs from the different stage of the attack
 ![connection](Images/connection.png)
 
 #### Get Function App Name and Key:
-- Go to your Function App in Azure.
-- Select **`VMRayDefender`** **Note**: If you chose a different name when while deployment, select on that name.
+> Go to your Function App in Azure.
 
-    ![function_app](Images/function_app.png)
-- Click on **Function Keys** and copy the `key` value.  
+> Select **`VMRayDefender`** **Note**: If you chose a different name when while deployment, select on that name.
+
+![function_app](Images/function_app.png)
+
+> Click on **Function Keys** and copy the `key` value.  
 
 ![key](Images/key.png)
 
-- Click **`Save`** after updating the JSON.
+> Click **`Save`** after updating the JSON.
 
 
 ### Step 3: Configure Trigger Authentication
